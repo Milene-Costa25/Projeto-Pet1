@@ -1,7 +1,7 @@
 # 🐾 Projeto Pet - Fila de Atendimento
 Uma aplicação simples para gerenciar uma fila de atendimentos em um Petshop, utilizando dados dinâmicos de uma API e armazenamento local com `localStorage`.
 
-É preciso preencher o nome do dono/tudor do animal e o telefone, caso não seja preenchido aparecerá um aviso.
+É preciso preencher o nome do dono/tutor do animal e o telefone, caso não seja preenchido aparecerá um aviso.
 
 Ao clicar em adicionar cliente, Um animal aleatório é buscado na API e adicionado na tabela de atendimento com uma imagem, raça,temperamento, idade, um medicamento aleatório cadastrado na const medicamentos e as informações cadastradas nos campos anteriores do tutor (nome e telefone). Além de adicionar esses dados para a variavel atendimentos em localStorage, mas com a adição de um ultimo atributo "atendimentoFinalizado" como false, indicando que o atendimento ainda não foi finalizado.
 
